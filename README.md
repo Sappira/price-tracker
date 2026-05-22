@@ -77,10 +77,4 @@ SCRAPER_API_KEY=your_scraperapi_key  # free at scraperapi.com
 | POST | /api/alerts | Set price alert |
 | GET | /api/alerts | Get user's alerts |
 
-##  Screenshots
 
-> Add screenshots after running the app!
-
-##  License
-
-MIT License — free to use and modify.
