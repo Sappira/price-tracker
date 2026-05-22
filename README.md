@@ -1,15 +1,15 @@
-# 🛒 PriceWatch — E-Commerce Price Tracker
+# PriceWatch — E-Commerce Price Tracker
 
 A full-stack price tracking app for Amazon & Flipkart with wishlist, price-drop alerts, and email notifications.
 
 ## 🚀 Features
 
-- 🔍 **Product Search** — Search products across Amazon & Flipkart
-- 📈 **Price History Charts** — Visual price trend graphs
-- ❤️ **Wishlist** — Save products you want to track
-- 🔔 **Price Drop Alerts** — Set target prices and get notified
-- 📧 **Email Notifications** — Automatic emails when price drops
-- 🤖 **Auto Price Refresh** — Background job refreshes prices every 6 hours
+-  **Product Search** — Search products across Amazon & Flipkart
+-  **Price History Charts** — Visual price trend graphs
+-  **Wishlist** — Save products you want to track
+-  **Price Drop Alerts** — Set target prices and get notified
+- **Email Notifications** — Automatic emails when price drops
+-**Auto Price Refresh** — Background job refreshes prices every 6 hours
 
 ## 🛠️ Tech Stack
 
@@ -22,7 +22,7 @@ A full-stack price tracking app for Amazon & Flipkart with wishlist, price-drop 
 | Scheduler | node-cron |
 | Scraping | Cheerio + Axios |
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 price-tracker/
@@ -79,7 +79,7 @@ EMAIL_PASS=your_gmail_app_password
 SCRAPER_API_KEY=your_scraperapi_key  # free at scraperapi.com
 ```
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -94,10 +94,10 @@ SCRAPER_API_KEY=your_scraperapi_key  # free at scraperapi.com
 | POST | /api/alerts | Set price alert |
 | GET | /api/alerts | Get user's alerts |
 
-## 📸 Screenshots
+##  Screenshots
 
 > Add screenshots after running the app!
 
-## 📄 License
+##  License
 
 MIT License — free to use and modify.
