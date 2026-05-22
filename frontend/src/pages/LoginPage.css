@@ -1,0 +1,91 @@
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.auth-bg {
+  position: fixed; inset: 0; z-index: 0;
+}
+
+.orb {
+  position: absolute; border-radius: 50%;
+  filter: blur(80px); opacity: 0.15;
+}
+.orb1 {
+  width: 500px; height: 500px;
+  background: var(--accent);
+  top: -100px; left: -100px;
+  animation: drift 8s ease-in-out infinite alternate;
+}
+.orb2 {
+  width: 400px; height: 400px;
+  background: var(--accent2);
+  bottom: -100px; right: -100px;
+  animation: drift 10s ease-in-out infinite alternate-reverse;
+}
+@keyframes drift {
+  from { transform: translate(0, 0); }
+  to { transform: translate(40px, 40px); }
+}
+
+.auth-container {
+  position: relative; z-index: 1;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 40px;
+  width: 100%; max-width: 420px;
+  margin: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.auth-logo {
+  display: flex; align-items: center; gap: 10px;
+  margin-bottom: 24px;
+}
+.logo-icon { font-size: 28px; }
+.logo-text {
+  font-family: 'Syne', sans-serif;
+  font-size: 22px; font-weight: 800;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.auth-title {
+  font-size: 28px; font-weight: 700; margin-bottom: 8px;
+}
+.auth-sub { color: var(--muted); margin-bottom: 28px; font-size: 14px; }
+
+.auth-form { display: flex; flex-direction: column; gap: 16px; }
+
+.field { display: flex; flex-direction: column; gap: 6px; }
+.field label { font-size: 13px; font-weight: 500; color: var(--muted); }
+
+.auth-error {
+  background: rgba(255,77,109,0.1);
+  border: 1px solid rgba(255,77,109,0.3);
+  color: var(--red); padding: 10px 14px;
+  border-radius: 8px; font-size: 13px;
+}
+
+.auth-switch {
+  text-align: center; margin-top: 20px;
+  font-size: 14px; color: var(--muted);
+}
+.link-btn {
+  background: none; border: none; color: var(--accent);
+  cursor: pointer; font-size: 14px; font-weight: 600;
+  text-decoration: underline;
+}
+
+.auth-features {
+  display: flex; gap: 12px; flex-wrap: wrap;
+  margin-top: 24px; padding-top: 20px;
+  border-top: 1px solid var(--border);
+  font-size: 12px; color: var(--muted);
+}
