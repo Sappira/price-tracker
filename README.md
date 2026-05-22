@@ -11,7 +11,7 @@ A full-stack price tracking app for Amazon & Flipkart with wishlist, price-drop 
 - **Email Notifications** - Automatic emails when price drops
 -**Auto Price Refresh** - Background job refreshes prices every 6 hours
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
