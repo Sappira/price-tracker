@@ -2,14 +2,14 @@
 
 A full-stack price tracking app for Amazon & Flipkart with wishlist, price-drop alerts, and email notifications.
 
-## 🚀 Features
+##  Features
 
--  **Product Search** — Search products across Amazon & Flipkart
--  **Price History Charts** — Visual price trend graphs
--  **Wishlist** — Save products you want to track
--  **Price Drop Alerts** — Set target prices and get notified
-- **Email Notifications** — Automatic emails when price drops
--**Auto Price Refresh** — Background job refreshes prices every 6 hours
+-  **Product Search** - Search products across Amazon & Flipkart
+-  **Price History Charts** - Visual price trend graphs
+-  **Wishlist** - Save products you want to track
+-  **Price Drop Alerts** - Set target prices and get notified
+- **Email Notifications** - Automatic emails when price drops
+-**Auto Price Refresh** - Background job refreshes prices every 6 hours
 
 ## 🛠️ Tech Stack
 
@@ -22,25 +22,8 @@ A full-stack price tracking app for Amazon & Flipkart with wishlist, price-drop 
 | Scheduler | node-cron |
 | Scraping | Cheerio + Axios |
 
-##  Project Structure
 
-```
-price-tracker/
-├── frontend/          # React app
-│   └── src/
-│       ├── components/   # Reusable UI components
-│       ├── pages/        # Page-level components
-│       ├── hooks/        # Custom React hooks
-│       └── context/      # Global state
-├── backend/           # Node.js + Express API
-│   ├── routes/        # API route handlers
-│   ├── models/        # MongoDB schemas
-│   ├── services/      # Business logic (scraper, email, scheduler)
-│   └── middleware/    # Auth, error handling
-└── docs/              # Documentation & diagrams
-```
 
-## ⚙️ Setup Instructions
 
 ### Prerequisites
 - Node.js (v18+)
